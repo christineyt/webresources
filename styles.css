@@ -1,0 +1,155 @@
+/* Basic Setup */
+
+html,
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: #fff;
+  font-size: 10px;
+  
+}
+
+
+/* Reusable Components */
+
+.row {
+  max-width: 1140px;
+  margin: 0 auto;
+}
+
+a{
+  text-decoration: none;
+}
+
+hr{
+  border-top: 1px solid lightgray;
+}
+
+/* Headings */
+header{
+  width: 100%;
+  height: 80px;
+  background-color: rgb(160, 192, 218);
+  position: fixed;
+  
+}
+
+.navbuttons  {
+  line-height: 80px;
+  font-size: 1.5rem;
+  display: inline-block;
+  float: right;
+  color: #e67e22;
+  position: relative;
+  width: 50px;
+  padding-left: 50px;
+}
+
+.dropdown{
+  display: none;
+  z-index: 99;
+  position: absolute;
+  text-align: center;
+  line-height: 30px;
+
+
+
+}.navbuttons:hover .dropdown{
+  display: block;
+  width: 100%;
+  background-color: rgb(160, 192, 218) ;
+  padding: 10px 20px;
+  margin-left: -25px;
+  
+  
+}
+
+.navbuttons a:link,
+.navbuttons a:visited {
+    color: white;
+} 
+
+.navbuttons a:hover,
+.navbuttons a:active {
+    color: #e67e22;
+}   
+
+.navbutton a:link,
+.navbutton a:visited{
+  color: white;
+}
+
+.navbutton a:hover,
+.navbutton a:active {
+    color: #e67e22;
+}   
+
+.row img {
+  width: 80px;
+  height: 80px;
+  float: left;
+}
+
+/* article ---content-- */
+table{
+  margin: 0 auto;
+  
+}
+.th1{
+  text-align: center;
+  font-size: 3.5rem;
+  padding-top: 120px;
+  padding-bottom: 20px;
+  letter-spacing: 2px;
+}
+
+.list {
+  text-align: left;
+  font-size: 2.5rem;
+  padding-top: 20px;
+     
+}
+
+tbody li{
+  margin-left: 45px;
+  font-size: 2rem;
+  padding: 15px 0px 10px 0px;
+}
+
+tbody li:hover,
+tbody li:active{
+  color: #e67e22;
+}
+
+.body-list a:link,
+.body-list a:visited{
+  text-decoration: none;
+  color:  rgb(98, 141, 177);
+  ;
+} 
+
+span{
+  color: #e67e22;
+}
+
+article{
+  margin-bottom: 120px;
+}
+
+/* Footer sections */
+footer{
+  width: 100%;
+  height: 60px;
+  background-color: rgb(160, 192, 218);
+  margin-top: 80px;
+  /* position: fixed; */
+  bottom: 0;
+  z-index: 99;
+  
+}
+
+footer p {
+  line-height: 60px;
+  text-align: center;
+  color: white;
+  font-size: 1.2rem;
+}
